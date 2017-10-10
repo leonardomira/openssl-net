@@ -93,7 +93,7 @@ namespace OpenSSL.Core
 	/// This is the low-level C-style interface to the crypto API.
 	/// Use this interface with caution.
 	/// </summary>
-	internal class Native
+	public class Native
 	{
 		/// <summary>
 		/// This is the name of the DLL that P/Invoke loads and tries to bind all of
